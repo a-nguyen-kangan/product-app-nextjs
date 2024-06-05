@@ -1,7 +1,6 @@
 import { fetchAllProducts } from "@/app/lib/fetch"
 import ProductLine from "./ProductLine";
 import { Product } from "./lib/products";
-import { useState } from "react";
 
 export default async function ProductList() {
     const products = await fetchAllProducts();
